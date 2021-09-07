@@ -440,7 +440,7 @@
     
     @media screen and (max-width: 610px) {
         body {
-            background-color: red;
+/*             background-color: red; */
         }
         .mainpage {
             margin: 20px;
@@ -582,7 +582,7 @@
     
     @media screen and (max-width: 500px) {
         body {
-            background-color: blue;
+/*             background-color: blue; */
         }
         .mainpage {
             margin: 20px;
@@ -725,7 +725,7 @@
     
     @media screen and (max-width: 390px) {
         body {
-            background-color: yellow;
+/*             background-color: yellow; */
         }
         .mainpage {
             margin: 20px;
