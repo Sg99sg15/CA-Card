@@ -1,175 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.mainpage {
-    margin: 20px;
-    border: 3px solid black;
-    height: 92vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo img {
-    padding: 10px;
-    width: 300px;
-    border: 5px solid rgb(17, 17, 121);
-    border-radius: 15px;
-}
-
-.name h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 70px;
-    font-family: 'Fjalla One', sans-serif;
-}
-
-.name p {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*  */
-
-.backside {
-    margin-top: 50px;
-    height: 92vh;
-    position: relative;
-    border: 3px solid black;
-    background-color: grey;
-    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
-    margin: 20px;
-}
-
-.left-sec {
-    width: 49.5%;
-    position: absolute;
-    height: 90vh;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo2 img {
-    padding: 10px;
-    width: 200px;
-    border: 5px solid rgb(17, 17, 121);
-    border-radius: 15px;
-}
-
-.name2 h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    font-family: 'Fjalla One', sans-serif;
-}
-
-.name2 p {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.right-sec {
-    position: absolute;
-    right: 0;
-    top: 30px;
-    width: 49.5%;
-    height: 85vh;
-    border-left: 5px solid black;
-}
-
-.backname h1 {
-    font-size: 50px;
-    padding-left: 100px;
-    padding-top: 20px;
-}
-
-.backname p {
-    padding-left: 225px;
-    font-size: 30px;
-}
-
-.calling {
-    padding-left: 30px;
-}
-
-.calling a {
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    padding-left: 10px;
-}
-
-.calling i {
-    font-size: 50px;
-}
-
-.location {
-    font-size: 30px;
-    padding-left: 30px;
-}
-
-.location a {
-    text-decoration: none;
-    color: black;
-}
-
-.location i {
-    font-size: 40px;
-}
-
-.mail {
-    padding-left: 30px;
-}
-
-.mail i {
-    font-size: 30px;
-}
-
-.mail a {
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-}
-
-
-/* Mediaquery */
-
-@media screen and (max-width: 1100px) {
-    body {
-        /* background-color: red; */
+    * {
+        margin: 0;
+        padding: 0;
     }
+    
     .mainpage {
         margin: 20px;
         border: 3px solid black;
-        height: 80vh;
+        height: 92vh;
         position: relative;
         display: flex;
         justify-content: center;
@@ -177,267 +14,710 @@
         background-color: grey;
         box-shadow: 5px 5px 10px black, -5px -5px 10px black;
     }
+    
     .logo {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    
     .logo img {
-        padding: 8px;
+        padding: 10px;
+        width: 300px;
+        border: 5px solid rgb(17, 17, 121);
+        border-radius: 15px;
+    }
+    
+    .name h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    
+    .name p {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*  */
+    
+    .backside {
+        margin-top: 50px;
+        height: 92vh;
+        position: relative;
+        border: 3px solid black;
+        background-color: grey;
+        box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+        margin: 20px;
+    }
+    
+    .left-sec {
+        width: 49.5%;
+        position: absolute;
+        height: 90vh;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo2 img {
+        padding: 10px;
         width: 200px;
         border: 5px solid rgb(17, 17, 121);
         border-radius: 15px;
     }
-    .name h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-        font-family: 'Fjalla One', sans-serif;
-    }
-    .name p {
-        font-family: 'Fjalla One', sans-serif;
-        font-size: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .backside {
-        margin-top: 50px;
-        height: 80vh;
-        position: relative;
-        border: 3px solid black;
-        background-color: grey;
-        box-shadow: 5px 5px 10px black, -5px -5px 10px black;
-        margin: 20px;
-    }
-    .left-sec {
-        width: 49.5%;
-        position: absolute;
-        height: 80vh;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo2 img {
-        padding: 10px;
-        width: 150px;
-        border: 5px solid rgb(17, 17, 121);
-        border-radius: 15px;
-    }
+    
     .name2 h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 35px;
+        font-size: 50px;
         font-family: 'Fjalla One', sans-serif;
     }
+    
     .name2 p {
         font-family: 'Fjalla One', sans-serif;
-        font-size: 35px;
+        font-size: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    
     .right-sec {
         position: absolute;
         right: 0;
         top: 30px;
         width: 49.5%;
-        height: 60vh;
+        height: 85vh;
         border-left: 5px solid black;
-        margin-top: 40px;
-        padding-bottom: 20px;
     }
+    
     .backname h1 {
+        font-size: 50px;
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+    
+    .backname p {
+        padding-left: 225px;
+        font-size: 30px;
+    }
+    
+    .calling {
+        padding-left: 30px;
+    }
+    
+    .calling a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    
+    .calling i {
+        font-size: 50px;
+    }
+    
+    .location {
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    
+    .location a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .location i {
         font-size: 40px;
-        padding-left: 100px;
-        padding-top: 10px;
     }
-    .backname p {
-        padding-left: 210px;
-        font-size: 22px;
-    }
-    .calling {
-        padding-left: 30px;
-    }
-    .calling a {
-        text-decoration: none;
-        color: black;
-        font-size: 25px;
-        padding-left: 10px;
-    }
-    .calling i {
-        font-size: 30px;
-    }
-    .location {
-        font-size: 25px;
-        padding-left: 30px;
-    }
-    .location a {
-        text-decoration: none;
-        color: black;
-    }
-    .location i {
-        font-size: 30px;
-    }
+    
     .mail {
         padding-left: 30px;
     }
+    
     .mail i {
-        font-size: 20px;
+        font-size: 30px;
     }
+    
     .mail a {
         text-decoration: none;
         color: black;
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 740px) {
-    body {
-        /* background-color: blue; */
-    }
-    .mainpage {
-        margin: 20px;
-        border: 3px solid black;
-        height: 60vh;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: grey;
-        box-shadow: 5px 5px 10px black, -5px -5px 10px black;
-    }
-    .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo img {
-        padding: 8px;
-        width: 125px;
-        border: 5px solid rgb(17, 17, 121);
-        border-radius: 15px;
-    }
-    .name h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-        font-family: 'Fjalla One', sans-serif;
-    }
-    .name p {
-        font-family: 'Fjalla One', sans-serif;
-        font-size: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .backside {
-        margin-top: 50px;
-        height: 60vh;
-        position: relative;
-        border: 3px solid black;
-        background-color: grey;
-        box-shadow: 5px 5px 10px black, -5px -5px 10px black;
-        margin: 20px;
-    }
-    .left-sec {
-        width: 49.5%;
-        position: absolute;
-        height: 60vh;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo2 img {
-        padding: 10px;
-        width: 100px;
-        border: 5px solid rgb(17, 17, 121);
-        border-radius: 15px;
-    }
-    .name2 h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 25px;
-        font-family: 'Fjalla One', sans-serif;
-    }
-    .name2 p {
-        font-family: 'Fjalla One', sans-serif;
-        font-size: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .right-sec {
-        position: absolute;
-        right: 0;
-        top: 30px;
-        width: 49.5%;
-        height: 40vh;
-        border-left: 5px solid black;
-        margin-top: 22px;
-        padding-bottom: 20px;
-    }
-    .backname h1 {
-        margin-top: -30px;
-        font-size: 30px;
-        padding-left: 100px;
-        padding-top: 10px;
-    }
-    .backname p {
-        padding-left: 175px;
-        font-size: 18px;
-    }
-    .calling {
-        margin-top: -50px;
-        padding-left: 30px;
-    }
-    .calling a {
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-        padding-left: 10px;
-    }
-    .calling i {
         font-size: 30px;
     }
-    .location {
-        margin-top: -20px;
-        padding-left: 30px;
+    /* Mediaquery */
+    
+    @media screen and (max-width: 1100px) {
+        body {
+            /* background-color: red; */
+        }
+        .mainpage {
+            margin: 20px;
+            border: 3px solid black;
+            height: 80vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            padding: 8px;
+            width: 200px;
+            border: 5px solid rgb(17, 17, 121);
+            border-radius: 15px;
+        }
+        .name h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .name p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .backside {
+            margin-top: 50px;
+            height: 80vh;
+            position: relative;
+            border: 3px solid black;
+            background-color: grey;
+            box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+            margin: 20px;
+        }
+        .left-sec {
+            width: 49.5%;
+            position: absolute;
+            height: 80vh;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo2 img {
+            padding: 10px;
+            width: 150px;
+            border: 5px solid rgb(17, 17, 121);
+            border-radius: 15px;
+        }
+        .name2 h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 35px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .name2 p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-sec {
+            position: absolute;
+            right: 0;
+            top: 30px;
+            width: 49.5%;
+            height: 60vh;
+            border-left: 5px solid black;
+            margin-top: 40px;
+            padding-bottom: 20px;
+        }
+        .backname h1 {
+            font-size: 40px;
+            padding-left: 100px;
+            padding-top: 10px;
+        }
+        .backname p {
+            padding-left: 210px;
+            font-size: 22px;
+        }
+        .calling {
+            padding-left: 30px;
+        }
+        .calling a {
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+            padding-left: 10px;
+        }
+        .calling i {
+            font-size: 30px;
+        }
+        .location {
+            font-size: 25px;
+            padding-left: 30px;
+        }
+        .location a {
+            text-decoration: none;
+            color: black;
+        }
+        .location i {
+            font-size: 30px;
+        }
+        .mail {
+            padding-left: 30px;
+        }
+        .mail i {
+            font-size: 20px;
+        }
+        .mail a {
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        }
     }
-    .location a {
-        font-size: 20px;
-        text-decoration: none;
-        color: black;
+    
+    @media screen and (max-width: 740px) {
+        body {
+            /* background-color: blue; */
+        }
+        .mainpage {
+            margin: 20px;
+            border: 3px solid black;
+            height: 60vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            padding: 8px;
+            width: 125px;
+            border: 5px solid rgb(17, 17, 121);
+            border-radius: 15px;
+        }
+        .name h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .name p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .backside {
+            margin-top: 50px;
+            height: 60vh;
+            position: relative;
+            border: 3px solid black;
+            background-color: grey;
+            box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+            margin: 20px;
+        }
+        .left-sec {
+            width: 49.5%;
+            position: absolute;
+            height: 60vh;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo2 img {
+            padding: 10px;
+            width: 100px;
+            border: 5px solid rgb(17, 17, 121);
+            border-radius: 15px;
+        }
+        .name2 h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .name2 p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-sec {
+            position: absolute;
+            right: 0;
+            top: 30px;
+            width: 49.5%;
+            height: 40vh;
+            border-left: 5px solid black;
+            margin-top: 22px;
+            padding-bottom: 20px;
+        }
+        .backname h1 {
+            margin-top: -30px;
+            font-size: 30px;
+            padding-left: 100px;
+            padding-top: 10px;
+        }
+        .backname p {
+            padding-left: 175px;
+            font-size: 18px;
+        }
+        .calling {
+            margin-top: -50px;
+            padding-left: 30px;
+        }
+        .calling a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            padding-left: 10px;
+        }
+        .calling i {
+            font-size: 30px;
+        }
+        .location {
+            margin-top: -20px;
+            padding-left: 30px;
+        }
+        .location a {
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        .location i {
+            font-size: 30px;
+        }
+        .mail {
+            margin-top: -10px;
+            padding-left: 30px;
+        }
+        .mail i {
+            font-size: 20px;
+        }
+        .mail a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
     }
-    .location i {
-        font-size: 30px;
+    
+    @media screen and (max-width: 610px) {
+        body {
+            background-color: red;
+        }
+        .mainpage {
+            margin: 20px;
+            border: 3px solid black;
+            height: 40vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            padding: 8px;
+            width: 75px;
+            border: 5px solid rgb(17, 17, 121);
+            border-radius: 15px;
+        }
+        .name h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .name p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .backside {
+            margin-top: 50px;
+            height: 40vh;
+            position: relative;
+            border: 3px solid black;
+            background-color: grey;
+            box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+            margin: 20px;
+        }
+        .left-sec {
+            width: 49.5%;
+            position: absolute;
+            height: 40vh;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo2 img {
+            padding: 10px;
+            width: 60px;
+            border: 5px solid rgb(17, 17, 121);
+            border-radius: 15px;
+        }
+        .name2 h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 17px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .name2 p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 17px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-sec {
+            position: absolute;
+            right: 0;
+            top: 30px;
+            width: 49.5%;
+            height: 25vh;
+            border-left: 5px solid black;
+            margin-top: 15px;
+            padding-bottom: 20px;
+        }
+        .backname h1 {
+            margin-top: -40px;
+            font-size: 20px;
+            padding-left: 110px;
+            padding-top: 10px;
+        }
+        .backname p {
+            padding-left: 160px;
+            font-size: 12px;
+        }
+        .calling {
+            margin-top: -70px;
+            padding-left: 30px;
+        }
+        .calling a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            padding-left: 10px;
+        }
+        .calling i {
+            font-size: 24px;
+        }
+        .location {
+            margin-top: -20px;
+            padding-left: 30px;
+        }
+        .location a {
+            font-size: 15px;
+            text-decoration: none;
+            color: black;
+        }
+        .location i {
+            font-size: 20px;
+        }
+        .mail {
+            margin-top: -20px;
+            padding-left: 30px;
+        }
+        .mail i {
+            font-size: 15px;
+        }
+        .mail a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
     }
-    .mail {
-        margin-top: -10px;
-        padding-left: 30px;
+    
+    @media screen and (max-width: 500px) {
+        body {
+            background-color: blue;
+        }
+        .mainpage {
+            margin: 20px;
+            border: 3px solid black;
+            height: 30vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            padding: 8px;
+            width: 50px;
+            border: 5px solid rgb(17, 17, 121);
+            border-radius: 15px;
+        }
+        .name h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .name p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .backside {
+            margin-top: 50px;
+            height: 30vh;
+            position: relative;
+            border: 3px solid black;
+            background-color: grey;
+            box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+            margin: 20px;
+        }
+        .left-sec {
+            width: 49.5%;
+            position: absolute;
+            height: 30vh;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo2 img {
+            padding: 10px;
+            width: 30px;
+            border: 3px solid rgb(17, 17, 121);
+            border-radius: 15px;
+        }
+        .name2 h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .name2 p {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-sec {
+            position: absolute;
+            right: 0;
+            top: 30px;
+            width: 49.5%;
+            height: 20vh;
+            border-left: 5px solid black;
+            margin-top: 0px;
+            padding-bottom: 20px;
+        }
+        .backname h1 {
+            margin-top: -45px;
+            font-size: 14px;
+            padding-left: 60px;
+            padding-top: 10px;
+        }
+        .backname p {
+            padding-left: 93px;
+            font-size: 9px;
+        }
+        .calling {
+            margin-top: -70px;
+            padding-left: 15px;
+        }
+        .calling a {
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            padding-left: 10px;
+        }
+        .calling i {
+            font-size: 17px;
+        }
+        .location {
+            margin-top: -40px;
+            padding-left: 15px;
+        }
+        .location a {
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
+        }
+        .location i {
+            font-size: 12px;
+        }
+        .mail {
+            margin-top: -30px;
+            padding-left: 15px;
+        }
+        .mail i {
+            font-size: 9px;
+        }
+        .mail a {
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+        }
     }
-    .mail i {
-        font-size: 20px;
-    }
-    .mail a {
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-    }
-}
